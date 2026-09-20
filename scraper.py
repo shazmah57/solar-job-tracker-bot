@@ -2,13 +2,11 @@ import json
 from datetime import datetime
 from jobspy import scrape_jobs
 
-# Countries we want to search for Solar jobs
 COUNTRIES = [
     "USA", "Canada", "Australia", 
     "New Zealand", "United Arab Emirates", "Saudi Arabia"
 ]
 
-# Strict search terms — only strong solar signals
 SEARCH_TERMS = [
     "Solar PV Engineer",
     "Solar Energy Engineer",
@@ -18,13 +16,11 @@ SEARCH_TERMS = [
     "Solar Electrical Engineer",
 ]
 
-# Title must contain ONE of these to be kept (case-insensitive)
 TITLE_KEYWORDS = [
     "solar", "pv", "photovoltaic", "renewable energy", "renewables",
     "bess", "energy storage",
 ]
 
-# Title must NOT contain any of these (junk filters)
 TITLE_EXCLUDE = [
     "sales", "marketing", "recruiter", "accountant", "finance",
     "legal", "counsel", "intern", "graduate", "co-op", "coop",
@@ -33,7 +29,6 @@ TITLE_EXCLUDE = [
 
 
 def is_solar_role(title: str) -> bool:
-    """Strict filter: title must contain a solar keyword AND not be junk."""
     if not title:
         return False
     lower = title.lower()
@@ -42,14 +37,68 @@ def is_solar_role(title: str) -> bool:
     return has_keyword and not has_exclude
 
 
+def safe_str(val):
+    """Convert NaN/None to empty string."""
+    if val is None:
+        return ""
+    s = str(val).strip()
+    if s.lower() in ("nan", "none", "nat"):
+        return ""
+    return s
+
+
+def format_salary(row):
+    """Try to build a salary string from JobSpy columns."""
+    min_amt = row.get("min_amount")
+    max_amt = row.get("max_amount")
+    currency = safe_str(row.get("currency"))
+    interval = safe_str(row.get("interval"))
+
+    try:
+        min_val = float(min_amt) if min_amt is not None else None
+    except (ValueError, TypeError):
+        min_val = None
+    try:
+        max_val = float(max_amt) if max_amt is not None else None
+    except (ValueError, TypeError):
+        max_val = None
+
+    if min_val is None and max_val is None:
+        return ""
+
+    def fmt(v):
+        if v is None:
+            return ""
+        if v >= 1000:
+            return f"{int(v/1000)}k"
+        return f"{int(v)}"
+
+    curr = currency if currency else ""
+
+    if min_val is not None and max_val is not None:
+        return f"{curr} {fmt(min_val)}–{fmt(max_val)} {interval}".strip()
+    if min_val is not None:
+        return f"{curr} {fmt(min_val)}+ {interval}".strip()
+    return f"{curr} up to {fmt(max_val)} {interval}".strip()
+
+
+def format_date(val):
+    """Convert date_posted to ISO string."""
+    if val is None:
+        return ""
+    s = str(val).strip()
+    if s.lower() in ("nan", "none", "nat", ""):
+        return ""
+    return s
+
+
 def main():
     all_jobs = []
-    seen_urls = set()  # dedupe across countries/terms
+    seen_urls = set()
 
     for country in COUNTRIES:
         for term in SEARCH_TERMS:
             print(f"Scraping '{term}' in {country}...")
-
             try:
                 jobs = scrape_jobs(
                     site_name=["linkedin"],
@@ -67,30 +116,28 @@ def main():
 
                 kept = 0
                 for _, job in jobs.iterrows():
-                    title = str(job.get("title", "")).strip()
-                    url = str(job.get("job_url", "")).strip()
+                    title = safe_str(job.get("title"))
+                    url = safe_str(job.get("job_url"))
 
-                    # Skip duplicates
                     if url in seen_urls:
                         continue
-
-                    # Strict solar filter
                     if not is_solar_role(title):
                         continue
 
                     seen_urls.add(url)
                     all_jobs.append({
                         "title": title,
-                        "company": str(job.get("company", "")),
-                        "location": str(job.get("location", "")),
-                        "posted_date": str(job.get("date_posted", "")),
+                        "company": safe_str(job.get("company")),
+                        "location": safe_str(job.get("location")),
+                        "posted_date": format_date(job.get("date_posted")),
+                        "salary": format_salary(job),
                         "job_url": url,
                         "search_country": country,
-                        "is_remote": bool(job.get("is_remote", False))
+                        "is_remote": bool(job.get("is_remote", False)),
                     })
                     kept += 1
 
-                print(f"  Kept {kept} of {len(jobs)} (solar-only filter)")
+                print(f"  Kept {kept} of {len(jobs)}")
 
             except Exception as e:
                 print(f"  Error: {e}")
