@@ -1,12 +1,34 @@
 {
-  "last_updated": "2026-09-20T13:57:55.181712",
-  "total_jobs": 28,
+  "last_updated": "2026-09-20T14:15:59.440250",
+  "total_jobs": 41,
   "source_counts": {
-    "linkedin": 28,
-    "bayt": 0,
-    "glassdoor": 0
+    "linkedin": 30,
+    "himalayas": 10,
+    "remoteok": 1
   },
   "jobs": [
+    {
+      "title": "BESS Engineer III (Remote)",
+      "company": "SOLV Energy",
+      "location": "Fremont County, WY",
+      "posted_date": "2026-09-19",
+      "salary": "",
+      "job_url": "https://www.linkedin.com/jobs/view/4460525757",
+      "search_country": "USA",
+      "is_remote": true,
+      "source": "linkedin"
+    },
+    {
+      "title": "Field Service Engineer - Solar",
+      "company": "IKO North America",
+      "location": "Texas, United States",
+      "posted_date": "2026-09-19",
+      "salary": "",
+      "job_url": "https://www.linkedin.com/jobs/view/4430207288",
+      "search_country": "USA",
+      "is_remote": false,
+      "source": "linkedin"
+    },
     {
       "title": "Electrical/Solar Engineer - Utility Scale",
       "company": "Construction Job Board USA",
@@ -41,34 +63,12 @@
       "source": "linkedin"
     },
     {
-      "title": "BESS Engineer III (Remote)",
-      "company": "SOLV Energy",
-      "location": "Fremont County, WY",
-      "posted_date": "",
-      "salary": "",
-      "job_url": "https://www.linkedin.com/jobs/view/4460525757",
-      "search_country": "USA",
-      "is_remote": true,
-      "source": "linkedin"
-    },
-    {
       "title": "Solar Project Engineer",
       "company": "Moss",
       "location": "Honolulu, HI",
       "posted_date": "",
       "salary": "",
       "job_url": "https://www.linkedin.com/jobs/view/4460527681",
-      "search_country": "USA",
-      "is_remote": false,
-      "source": "linkedin"
-    },
-    {
-      "title": "Field Service Engineer - Solar",
-      "company": "IKO North America",
-      "location": "Texas, United States",
-      "posted_date": "",
-      "salary": "",
-      "job_url": "https://www.linkedin.com/jobs/view/4430207288",
       "search_country": "USA",
       "is_remote": false,
       "source": "linkedin"
@@ -93,6 +93,17 @@
       "job_url": "https://www.linkedin.com/jobs/view/4255332903",
       "search_country": "USA",
       "is_remote": false,
+      "source": "linkedin"
+    },
+    {
+      "title": "BESS Engineer III (Remote)",
+      "company": "SOLV Energy",
+      "location": "West Virginia, United States",
+      "posted_date": "",
+      "salary": "",
+      "job_url": "https://www.linkedin.com/jobs/view/4460524718",
+      "search_country": "USA",
+      "is_remote": true,
       "source": "linkedin"
     },
     {
@@ -206,6 +217,17 @@
       "source": "linkedin"
     },
     {
+      "title": "BESS Engineer III (Remote)",
+      "company": "SOLV Energy",
+      "location": "Maryland, United States",
+      "posted_date": "",
+      "salary": "",
+      "job_url": "https://www.linkedin.com/jobs/view/4460530667",
+      "search_country": "USA",
+      "is_remote": true,
+      "source": "linkedin"
+    },
+    {
       "title": "Senior Civil Engineer - Renewable Energy",
       "company": "Leeward Renewable Energy",
       "location": "Dallas, TX",
@@ -314,6 +336,127 @@
       "search_country": "New Zealand",
       "is_remote": false,
       "source": "linkedin"
+    },
+    {
+      "title": "Senior PV Design Engineer",
+      "company": "HR Energy Recruitment Agency",
+      "location": "United States",
+      "posted_date": 1789677130,
+      "salary": "",
+      "job_url": "https://himalayas.app/companies/hr-energy-recruitment-agency/jobs/senior-pv-design-engineer",
+      "search_country": "USA",
+      "is_remote": true,
+      "source": "himalayas"
+    },
+    {
+      "title": "Solar Engineer | Work from home | Morning Shift",
+      "company": "Scale-X Solutions",
+      "location": "United States",
+      "posted_date": 1787513474,
+      "salary": "",
+      "job_url": "https://himalayas.app/companies/scale-x-solutions/jobs/solar-engineer-work-from-home-morning-shift",
+      "search_country": "USA",
+      "is_remote": true,
+      "source": "himalayas"
+    },
+    {
+      "title": "PV Design Engineer (Freelance, UA)",
+      "company": "HR Energy Recruitment Agency",
+      "location": "United States",
+      "posted_date": 1785898527,
+      "salary": "",
+      "job_url": "https://himalayas.app/companies/hr-energy-recruitment-agency/jobs/pv-design-engineer-freelance-ua",
+      "search_country": "USA",
+      "is_remote": true,
+      "source": "himalayas"
+    },
+    {
+      "title": "Senior Solar Design Engineer [Remote]",
+      "company": "EDF Renewables North America",
+      "location": "United States",
+      "posted_date": 1787417855,
+      "salary": "USD 107k\u2013178k annual",
+      "job_url": "https://himalayas.app/companies/edf-renewables-north-america/jobs/senior-solar-design-engineer-remote-7737009541",
+      "search_country": "USA",
+      "is_remote": true,
+      "source": "himalayas"
+    },
+    {
+      "title": "Electrical Engineer (BESS Focus)",
+      "company": "AECOM",
+      "location": "United States",
+      "posted_date": 1789308131,
+      "salary": "USD 100k\u2013130k annual",
+      "job_url": "https://himalayas.app/companies/aecom/jobs/electrical-engineer-bess-focus",
+      "search_country": "USA",
+      "is_remote": true,
+      "source": "himalayas"
+    },
+    {
+      "title": "Senior Electrical Engineering Consultant -- Renewable Energy",
+      "company": "Sargent & Lundy",
+      "location": "United States",
+      "posted_date": 1786144444,
+      "salary": "USD 131k\u2013205k annual",
+      "job_url": "https://himalayas.app/companies/sargent-lundy/jobs/senior-electrical-engineering-consultant-renewable-energy",
+      "search_country": "USA",
+      "is_remote": true,
+      "source": "himalayas"
+    },
+    {
+      "title": "Senior Engineering Manager - Renewable Energy",
+      "company": "Ameresco",
+      "location": "United States",
+      "posted_date": 1786846190,
+      "salary": "USD 154k\u2013223k annual",
+      "job_url": "https://himalayas.app/companies/ameresco/jobs/senior-engineering-manager-renewable-energy-9751951163",
+      "search_country": "USA",
+      "is_remote": true,
+      "source": "himalayas"
+    },
+    {
+      "title": "Lead Microgrid Engineer - Energy Storage and Generation Applications",
+      "company": "Leidos",
+      "location": "United States",
+      "posted_date": 1789592700,
+      "salary": "USD 87k\u2013157k annual",
+      "job_url": "https://himalayas.app/companies/leidos/jobs/lead-microgrid-engineer-energy-storage-and-generation-applications-1031012201",
+      "search_country": "USA",
+      "is_remote": true,
+      "source": "himalayas"
+    },
+    {
+      "title": "Senior Electrical Engineer (Renewable Energy) - REMOTE (Remote, Remote, US)",
+      "company": "Bureau Veritas",
+      "location": "United States",
+      "posted_date": 1789760898,
+      "salary": "USD 140k\u2013200k annual",
+      "job_url": "https://himalayas.app/companies/bureau-veritas/jobs/senior-electrical-engineer-renewable-energy-remote-remote-remote-us",
+      "search_country": "USA",
+      "is_remote": true,
+      "source": "himalayas"
+    },
+    {
+      "title": "Civil Project Engineer II/III - Renewable Energy Structural Design",
+      "company": "Timmons Group",
+      "location": "United States",
+      "posted_date": 1788764277,
+      "salary": "USD 82k\u201390k annual",
+      "job_url": "https://himalayas.app/companies/timmons-group/jobs/civil-project-engineer-ii-iii-renewable-energy-structural-design-6174644262",
+      "search_country": "USA",
+      "is_remote": true,
+      "source": "himalayas"
+    },
+    {
+      "title": "Renewables Project Scheduler",
+      "company": "Transportation Partners &amp; Logistics",
+      "location": "Black Bess, ",
+      "posted_date": "2026-08-25T21:34:13+00:00",
+      "salary": "",
+      "job_url": "https://remoteOK.com/remote-jobs/remote-renewables-project-scheduler-transportation-partners-amp-logistics-1137194",
+      "search_country": "Remote",
+      "is_remote": true,
+      "source": "remoteok"
     }
   ]
 }
