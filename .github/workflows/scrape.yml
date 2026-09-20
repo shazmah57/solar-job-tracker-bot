@@ -16,6 +16,9 @@ jobs:
     steps:
       - name: Checkout repository
         uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+          ref: main
 
       - name: Setup Python
         uses: actions/setup-python@v5
@@ -33,6 +36,14 @@ jobs:
           git config user.name "github-actions[bot]"
           git config user.email "github-actions[bot]@users.noreply.github.com"
           git add jobs.json
-          git diff --staged --quiet || git commit -m "Update jobs: $(date -u +%F)"
-          git pull --rebase origin main
-          git push
+          if git diff --staged --quiet; then
+            echo "No changes to commit"
+            exit 0
+          fi
+          git commit -m "Update jobs: $(date -u +%F-%H%M)"
+          # Retry push up to 3 times, pulling fresh each time
+          for i in 1 2 3; do
+            git pull --rebase --autostash origin main && git push && break
+            echo "Push attempt $i failed, retrying..."
+            sleep 5
+          done
