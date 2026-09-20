@@ -41,7 +41,6 @@ jobs:
             exit 0
           fi
           git commit -m "Update jobs: $(date -u +%F-%H%M)"
-          # Retry push up to 3 times, pulling fresh each time
           for i in 1 2 3; do
             git pull --rebase --autostash origin main && git push && break
             echo "Push attempt $i failed, retrying..."
