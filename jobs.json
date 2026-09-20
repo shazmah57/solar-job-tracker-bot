@@ -1,12 +1,23 @@
 {
-  "last_updated": "2026-09-20T09:29:28.020301",
+  "last_updated": "2026-09-20T11:10:50.671095",
   "total_jobs": 30,
   "jobs": [
+    {
+      "title": "Electrical/Solar Engineer - Utility Scale",
+      "company": "Construction Job Board USA",
+      "location": "Kansas City, KS",
+      "posted_date": "",
+      "salary": "",
+      "job_url": "https://www.linkedin.com/jobs/view/4469594049",
+      "search_country": "USA",
+      "is_remote": false
+    },
     {
       "title": "Project Engineer - Renewables",
       "company": "TotalEnergies",
       "location": "Houston, TX",
-      "posted_date": "nan",
+      "posted_date": "",
+      "salary": "",
       "job_url": "https://www.linkedin.com/jobs/view/4424138540",
       "search_country": "USA",
       "is_remote": false
@@ -15,7 +26,8 @@
       "title": "BESS Engineer III (Remote)",
       "company": "SOLV Energy",
       "location": "Providence County, RI",
-      "posted_date": "nan",
+      "posted_date": "",
+      "salary": "",
       "job_url": "https://www.linkedin.com/jobs/view/4460534635",
       "search_country": "USA",
       "is_remote": true
@@ -24,25 +36,18 @@
       "title": "BESS Engineer III (Remote)",
       "company": "SOLV Energy",
       "location": "Georgia, United States",
-      "posted_date": "nan",
+      "posted_date": "",
+      "salary": "",
       "job_url": "https://www.linkedin.com/jobs/view/4460525758",
       "search_country": "USA",
       "is_remote": true
     },
     {
-      "title": "Principal Engineer - BESS",
-      "company": "NextEra Energy Resources",
-      "location": "Juno Beach, FL",
-      "posted_date": "nan",
-      "job_url": "https://www.linkedin.com/jobs/view/4448448631",
-      "search_country": "USA",
-      "is_remote": false
-    },
-    {
       "title": "Solar Project Engineer",
       "company": "Moss",
       "location": "Honolulu, HI",
-      "posted_date": "nan",
+      "posted_date": "",
+      "salary": "",
       "job_url": "https://www.linkedin.com/jobs/view/4460527681",
       "search_country": "USA",
       "is_remote": false
@@ -51,7 +56,8 @@
       "title": "Electrical Engineer \u2013 Utility-Scale Solar",
       "company": "Expert Executive Recruiters (EER Global)",
       "location": "Washington, DC",
-      "posted_date": "nan",
+      "posted_date": "",
+      "salary": "",
       "job_url": "https://www.linkedin.com/jobs/view/4465103587",
       "search_country": "USA",
       "is_remote": false
@@ -60,7 +66,8 @@
       "title": "Civil Engineer - Renewable Energy",
       "company": "Kimley-Horn",
       "location": "Memphis, TN",
-      "posted_date": "nan",
+      "posted_date": "",
+      "salary": "",
       "job_url": "https://www.linkedin.com/jobs/view/4413823217",
       "search_country": "USA",
       "is_remote": false
@@ -69,80 +76,19 @@
       "title": "Field Service Engineer - Solar",
       "company": "IKO North America",
       "location": "Texas, United States",
-      "posted_date": "nan",
+      "posted_date": "",
+      "salary": "",
       "job_url": "https://www.linkedin.com/jobs/view/4430207288",
       "search_country": "USA",
       "is_remote": false
     },
     {
-      "title": "Sr. Project Engineer - Utility-Scale Renewable Energy",
-      "company": "Barton Malow",
-      "location": "Southfield, MI",
-      "posted_date": "nan",
-      "job_url": "https://www.linkedin.com/jobs/view/4255332903",
-      "search_country": "USA",
-      "is_remote": false
-    },
-    {
-      "title": "Solar Performance Engineering Manager - Power Engineering",
-      "company": "Kiewit",
-      "location": "Lenexa, KS",
-      "posted_date": "nan",
-      "job_url": "https://www.linkedin.com/jobs/view/4468448274",
-      "search_country": "USA",
-      "is_remote": false
-    },
-    {
-      "title": "Solar PV Operations and Maintenance Area Lead III - Tullahoma, TN",
-      "company": "Silicon Ranch Corporation",
-      "location": "Tullahoma, TN",
-      "posted_date": "nan",
-      "job_url": "https://www.linkedin.com/jobs/view/4459452068",
-      "search_country": "USA",
-      "is_remote": false
-    },
-    {
-      "title": "Civil Lead Engineer, Renewables",
-      "company": "Westwood Professional Services",
-      "location": "Middleton, WI",
-      "posted_date": "nan",
-      "job_url": "https://www.linkedin.com/jobs/view/4373913105",
-      "search_country": "USA",
-      "is_remote": false
-    },
-    {
-      "title": "Electrical/Solar Engineer - Utility Scale",
-      "company": "Construction Job Board USA",
-      "location": "Kansas City, KS",
-      "posted_date": "None",
-      "job_url": "https://www.linkedin.com/jobs/view/4469594049",
-      "search_country": "USA",
-      "is_remote": false
-    },
-    {
-      "title": "BESS Engineer III (Remote)",
-      "company": "SOLV Energy",
-      "location": "Fremont County, WY",
-      "posted_date": "None",
-      "job_url": "https://www.linkedin.com/jobs/view/4460525757",
-      "search_country": "USA",
-      "is_remote": true
-    },
-    {
       "title": "Manager, Systems Engineering - Renewable Energy",
       "company": "WSP in the U.S.",
-      "location": "Denver, CO",
-      "posted_date": "None",
-      "job_url": "https://www.linkedin.com/jobs/view/4441676226",
-      "search_country": "USA",
-      "is_remote": false
-    },
-    {
-      "title": "Energy Storage Project Engineer (Holbrook, AZ)",
-      "company": "SOLV Energy",
-      "location": "Holbrook, AZ",
-      "posted_date": "None",
-      "job_url": "https://www.linkedin.com/jobs/view/4441934421",
+      "location": "Houston, TX",
+      "posted_date": "",
+      "salary": "",
+      "job_url": "https://www.linkedin.com/jobs/view/4441675325",
       "search_country": "USA",
       "is_remote": false
     },
@@ -150,8 +96,69 @@
       "title": "Join our Project Engineer (BESS EPC) Talent Community today! (Primoris Renewable Energy)",
       "company": "Primoris Services Corporation",
       "location": "Colorado, United States",
-      "posted_date": "None",
+      "posted_date": "",
+      "salary": "",
       "job_url": "https://www.linkedin.com/jobs/view/4432886437",
+      "search_country": "USA",
+      "is_remote": false
+    },
+    {
+      "title": "Solar PV Operations and Maintenance Area Lead III - Tullahoma, TN",
+      "company": "Silicon Ranch Corporation",
+      "location": "Tullahoma, TN",
+      "posted_date": "",
+      "salary": "",
+      "job_url": "https://www.linkedin.com/jobs/view/4459452068",
+      "search_country": "USA",
+      "is_remote": false
+    },
+    {
+      "title": "BESS Engineer III (Remote)",
+      "company": "SOLV Energy",
+      "location": "Fremont County, WY",
+      "posted_date": "",
+      "salary": "",
+      "job_url": "https://www.linkedin.com/jobs/view/4460525757",
+      "search_country": "USA",
+      "is_remote": true
+    },
+    {
+      "title": "Project Engineer-Solar",
+      "company": "Westinghouse Electric Company",
+      "location": "Middlesex County, MA",
+      "posted_date": "",
+      "salary": "",
+      "job_url": "https://www.linkedin.com/jobs/view/4405089155",
+      "search_country": "USA",
+      "is_remote": false
+    },
+    {
+      "title": "Solar Performance Engineering Manager - Power Engineering",
+      "company": "Kiewit",
+      "location": "Lenexa, KS",
+      "posted_date": "",
+      "salary": "",
+      "job_url": "https://www.linkedin.com/jobs/view/4468448274",
+      "search_country": "USA",
+      "is_remote": false
+    },
+    {
+      "title": "Sr. Project Engineer - Utility-Scale Renewable Energy",
+      "company": "Barton Malow",
+      "location": "Southfield, MI",
+      "posted_date": "",
+      "salary": "",
+      "job_url": "https://www.linkedin.com/jobs/view/4255332903",
+      "search_country": "USA",
+      "is_remote": false
+    },
+    {
+      "title": "Energy Storage Project Engineer (Holbrook, AZ)",
+      "company": "SOLV Energy",
+      "location": "Holbrook, AZ",
+      "posted_date": "",
+      "salary": "",
+      "job_url": "https://www.linkedin.com/jobs/view/4441934421",
       "search_country": "USA",
       "is_remote": false
     },
@@ -159,7 +166,8 @@
       "title": "Solar Assistant Project Manager",
       "company": "Moss",
       "location": "North Carolina, United States",
-      "posted_date": "None",
+      "posted_date": "",
+      "salary": "",
       "job_url": "https://www.linkedin.com/jobs/view/4383426200",
       "search_country": "USA",
       "is_remote": false
@@ -168,7 +176,8 @@
       "title": "BESS Engineer III (Remote)",
       "company": "SOLV Energy",
       "location": "Wisconsin, United States",
-      "posted_date": "None",
+      "posted_date": "",
+      "salary": "",
       "job_url": "https://www.linkedin.com/jobs/view/4460537547",
       "search_country": "USA",
       "is_remote": true
@@ -176,9 +185,20 @@
     {
       "title": "Manager, Systems Engineering - Renewable Energy",
       "company": "WSP in the U.S.",
-      "location": "Houston, TX",
-      "posted_date": "None",
-      "job_url": "https://www.linkedin.com/jobs/view/4441675325",
+      "location": "Denver, CO",
+      "posted_date": "",
+      "salary": "",
+      "job_url": "https://www.linkedin.com/jobs/view/4441676226",
+      "search_country": "USA",
+      "is_remote": false
+    },
+    {
+      "title": "Senior Developer, Renewable Energy Project Development",
+      "company": "Cloudbreak Energy",
+      "location": "Boulder, CO",
+      "posted_date": "",
+      "salary": "",
+      "job_url": "https://www.linkedin.com/jobs/view/4469542995",
       "search_country": "USA",
       "is_remote": false
     },
@@ -186,17 +206,19 @@
       "title": "Manager, Systems Engineering - Renewable Energy",
       "company": "WSP in the U.S.",
       "location": "Houston, TX",
-      "posted_date": "None",
+      "posted_date": "",
+      "salary": "",
       "job_url": "https://www.linkedin.com/jobs/view/4440796573",
       "search_country": "USA",
       "is_remote": false
     },
     {
-      "title": "Mid-Level Electrical Engineer (Renewables)",
-      "company": "WSP in the U.S.",
-      "location": "Denver, CO",
-      "posted_date": "None",
-      "job_url": "https://www.linkedin.com/jobs/view/4450368675",
+      "title": "Civil Engineer - Renewable Energy",
+      "company": "LaBella Associates",
+      "location": "Chattanooga, TN",
+      "posted_date": "",
+      "salary": "",
+      "job_url": "https://www.linkedin.com/jobs/view/4433320979",
       "search_country": "USA",
       "is_remote": false
     },
@@ -204,7 +226,8 @@
       "title": "Mid-Level Electrical Engineer (Renewables)",
       "company": "WSP in the U.S.",
       "location": "Billings, MT",
-      "posted_date": "None",
+      "posted_date": "",
+      "salary": "",
       "job_url": "https://www.linkedin.com/jobs/view/4450369654",
       "search_country": "USA",
       "is_remote": false
@@ -213,7 +236,8 @@
       "title": "Mid-Level Electrical Engineer (Renewables)",
       "company": "WSP in the U.S.",
       "location": "Denver, CO",
-      "posted_date": "None",
+      "posted_date": "",
+      "salary": "",
       "job_url": "https://www.linkedin.com/jobs/view/4450780578",
       "search_country": "USA",
       "is_remote": false
@@ -222,7 +246,8 @@
       "title": "BESS Engineering Lead",
       "company": "Intersect",
       "location": "",
-      "posted_date": "nan",
+      "posted_date": "",
+      "salary": "",
       "job_url": "https://www.linkedin.com/jobs/view/4469570675",
       "search_country": "Canada",
       "is_remote": false
@@ -231,7 +256,8 @@
       "title": "BESS Engineer",
       "company": "Intersect",
       "location": "",
-      "posted_date": "nan",
+      "posted_date": "",
+      "salary": "",
       "job_url": "https://www.linkedin.com/jobs/view/4469568779",
       "search_country": "Canada",
       "is_remote": false
@@ -240,7 +266,8 @@
       "title": "Senior Project Manager, Renewable Energy",
       "company": "Kruger Inc.",
       "location": "Montreal, Quebec, Canada",
-      "posted_date": "nan",
+      "posted_date": "",
+      "salary": "",
       "job_url": "https://www.linkedin.com/jobs/view/4441669053",
       "search_country": "Canada",
       "is_remote": false
@@ -249,7 +276,8 @@
       "title": "Renewable Energy Licensed Electrician",
       "company": "Spark Power \u26a1",
       "location": "Windsor, Ontario, Canada",
-      "posted_date": "nan",
+      "posted_date": "",
+      "salary": "",
       "job_url": "https://www.linkedin.com/jobs/view/4440634494",
       "search_country": "Canada",
       "is_remote": false
@@ -258,7 +286,8 @@
       "title": "Civil Development Engineer, Renewable Energy",
       "company": "Intersect",
       "location": "",
-      "posted_date": "None",
+      "posted_date": "",
+      "salary": "",
       "job_url": "https://www.linkedin.com/jobs/view/4469566890",
       "search_country": "Canada",
       "is_remote": false
@@ -267,7 +296,8 @@
       "title": "Construction, Renewable Energy Lawyers, Multiple Contract roles, premium rates $$$",
       "company": "Wolf & Williams",
       "location": "Sydney, New South Wales, Australia",
-      "posted_date": "nan",
+      "posted_date": "",
+      "salary": "",
       "job_url": "https://www.linkedin.com/jobs/view/4468443497",
       "search_country": "Australia",
       "is_remote": false
